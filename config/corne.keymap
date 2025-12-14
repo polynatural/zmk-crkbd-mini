@@ -34,7 +34,7 @@
                         global-quick-tap;
                                 
                 };
-                 };
+        };
 
         keymap {
                 compatible = "zmk,keymap";
@@ -110,8 +110,8 @@
                 compatible = "zmk,conditional-layers";
 
                 l3 {
-                        if-layers = <&SYM &NAV>;
-                        then-layer = <&ADJ>;
+                        if-layers = <1 2>;
+                        then-layer = <3>;
                 };
 
         
