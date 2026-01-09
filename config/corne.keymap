@@ -19,7 +19,7 @@
             bindings = <&kp>, <&kp>;
 
             quick-tap-ms = <180>;
-            require-prior-idle-ms = <120>; /* tune to taste */
+            require-prior-idle-ms = <200>; /* tune to taste */
         };
 
         para: para {
